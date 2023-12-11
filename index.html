@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Следующий мета тег "viewport" очень важен для правильного отображения "отзывчивых сайтов" на разных устройствах.
+      Браузеры хотят быть очень услужливыми и пытатться помочь нам, отображая сайты совсем не так, как нужно.
+      Совсем как "Двое из ларца"
+
+      Например - попытаться отобразить всю страницу разом, хотя она должна прокручиваться на 10 экранов,
+      или увеличить шрифт непонятным образом, когда мы переворачиваем телефон горизонтально 
+      1. width=device-with - говорит браузеру "дружище, ширина моей страницы ровно такая, какой ширины твой экран.
+      Не надо ничего подгонять, я сам этим займусь"
+      2. initial-scale=1 - говорит браузеру "не вздумай ничего приближать/отдалять по своему усмотрению, я сам
+      озабочусь тем, чтобы при разной ширине всё отображалось хорошо"
+
+      https://www.w3schools.com/css/css_rwd_viewport.asp
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+       <!--
+    Тайтл отобржается как название закладки в барузере
+    -->
+    <title>Настя</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="name">Анастасия Люлева</div>
+    <div class="item">
+			<img class="photo" src="me1.png" width="1000" height="1000" alt="фото">
+		</div>
+
+    <div class="block">
+      <div class="block-title">Всегда рядом С Вами</div>
+      <div class="block-entries">
+        <div class="entry">
+          <a href="https://t.me/Defoltini" target="_blank"> telegram</a>
+        </div>
+        <div class="entry">
+          <a href="mailto:nesti-1998@mail.ru">nesti-1998@mail.ru</a>
+        </div>
+        <div class="entry">
+          <a href="https://vk.com/nastya357" target="_blank">VK</a>
+        </div>
+                <div class="entry">
+          <a href="https://github.com/German-D" target="_blank">git</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">Немного обо мне</div>
+      <div class="entry">
+        <p>Обожаю анализировать все на свете</p>
+      </div>
+      <div class="entry">
+        <p>Довожу свои работы до идеала</p>
+      </div>
+      <div class="entry">
+        <p>Могу рассказать про кредитные продукты и спец.счета</p>
+      </div>
+    </div>
+    <div class="entry">
+      <p>Становлюсь лучшей версией себя с каждым днем</p>
+    </div>
+    <div class="entry">
+      <p>Отношусь ко всему с юмором</p>
+    </div>
+    
+    </div>
+  </body>
+</html>
